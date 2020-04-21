@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.3rem;
+}
+
+.header {
+  background-color: #65c5dd;
+  padding: 2rem;
+  text-align: center;
+  margin: 1rem;
+}
+
+.header .heading {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #ffffff;
+}
+.header .subHeading {
+  font-size: 1.5rem;
+  color: #ffffff;
+}
+
+.header .codeBtn {
+  background-color: #23424a;
+  border: none;
+  color: white;
+  padding: 0.5rem 1rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.codeBtn i {
+  font-size: 1rem;
+  margin: 0.5rem;
+}
+.codeBtn:hover {
+  background-color: #496b74;
+  transition: 0.3s;
+}
+
+/* heading */
+.container {
+  background-color: #23424a;
+  color: #ffffff;
+  padding: 4rem 0;
+}
+.inner-content {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.container__text {
+  width: 60%;
+}
+.inner-content h1 {
+  font-size: 3rem;
+}
+.inner-content p {
+  margin-bottom: 3rem;
+}
+
+/* submit Button */
+.submitBtn {
+  background-color: #38cfd9;
+  color: #23424a;
+  padding: 0.75em 2em;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: 900;
+  border-radius: 100px;
+  text-transform: uppercase;
+}
+.submitBtn:hover,
+.submitBtn:focus {
+  opacity: 0.75;
+}
